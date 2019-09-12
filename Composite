@@ -1,0 +1,30 @@
+
+
+List<ForeignImportMessage> foreignMessages = new ArrayList<>();
+
+
+
+
+Map<ForeingImportMessageType, List<AtomicMessagePartDomain>> foreingMessageParts = compositeMessages.stream()
+																						.map(c -> new AtomicMessagePartDomain(c.getData()))
+																						.collect(Collectors.groupingBy(AtomicMessagePartDomain::getType));
+
+гуид?
+
+for(Map.Entry<ForeingImportMessageType, List<AtomicMessagePartDomain>> entry : entrySet()) {
+	ForeingImportMessageType type = entry.getKey();
+
+
+	Map<String, String> messages = collectSourcesWithGuid(entry.getValue());
+
+	foreignMessages.addAll(	messages.stream()
+			.map(m -> ForeignImportMessage.from(type, m.getValue).build())
+			.collect(Collectors.toList()));
+}
+
+
+
+Map<String, String> collectSourcesWithGuid(List<AtomicMessagePartDomain>> messageParts) {
+	return messageParts.stream()
+					.collect(Collectors.toMap(AtomicMessagePartDomain::getGuid, messagePart -> "<root>" + String.join("", messagePart.getSource()) + "</root>"));
+}
