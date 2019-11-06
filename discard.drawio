@@ -1,6 +1,6 @@
-<mxfile modified="2019-10-31T14:22:33.265Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="6U5nSBQFVz5rWZrwI-KW" version="12.1.9" type="github" pages="1">
+<mxfile modified="2019-11-06T10:15:07.829Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="-yUZhxq4rhCz3W8pXmne" version="12.1.9" type="github" pages="1">
   <diagram id="vM7v3gxjcFjn_N_5kzUM" name="Page-1">
-    <mxGraphModel dx="1544" dy="1598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2313" dy="2058" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -493,6 +493,30 @@
             <mxPoint y="791" as="sourcePoint"/>
             <mxPoint x="160" y="791" as="targetPoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="bihAvSJTtZpJmnDp6-8L-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;endSize=10;curved=1;" edge="1" parent="1" source="bihAvSJTtZpJmnDp6-8L-60" target="bihAvSJTtZpJmnDp6-8L-63">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="bihAvSJTtZpJmnDp6-8L-60" value="Shop" style="shape=component;align=left;spacingLeft=36;" vertex="1" parent="1">
+          <mxGeometry x="610" y="-990" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="bihAvSJTtZpJmnDp6-8L-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;endSize=10;curved=1;" edge="1" parent="1" source="bihAvSJTtZpJmnDp6-8L-61" target="bihAvSJTtZpJmnDp6-8L-60">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="bihAvSJTtZpJmnDp6-8L-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;endSize=10;curved=1;" edge="1" parent="1" source="bihAvSJTtZpJmnDp6-8L-61" target="bihAvSJTtZpJmnDp6-8L-62">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="bihAvSJTtZpJmnDp6-8L-61" value="RestAPI" style="shape=component;align=left;spacingLeft=36;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-1100" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="bihAvSJTtZpJmnDp6-8L-62" value="Auction" style="shape=component;align=left;spacingLeft=36;" vertex="1" parent="1">
+          <mxGeometry x="420" y="-930" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="bihAvSJTtZpJmnDp6-8L-63" value="Prising" style="shape=component;align=left;spacingLeft=36;" vertex="1" parent="1">
+          <mxGeometry x="680" y="-840" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="bihAvSJTtZpJmnDp6-8L-66" value="WebApp" style="shape=component;align=left;spacingLeft=36;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-1100" width="120" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
