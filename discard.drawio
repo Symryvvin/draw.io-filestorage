@@ -1,6 +1,6 @@
-<mxfile modified="2019-11-06T14:13:41.849Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="NnNQabnMSrJvFrvHpEV3" version="12.1.9" type="github" pages="1">
+<mxfile modified="2019-11-12T09:21:53.097Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="i5TADTMmN_Ae6QBiA8uF" version="12.1.9" type="github" pages="1">
   <diagram id="vM7v3gxjcFjn_N_5kzUM" name="Page-1">
-    <mxGraphModel dx="1322" dy="1465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2313" dy="2058" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -623,7 +623,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bihAvSJTtZpJmnDp6-8L-165" value="ManaCost" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-710" y="-56.5" width="207" height="112" as="geometry"/>
+          <mxGeometry x="-800" y="-100" width="207" height="112" as="geometry"/>
         </mxCell>
         <mxCell id="bihAvSJTtZpJmnDp6-8L-166" value="+ cmc: Integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bihAvSJTtZpJmnDp6-8L-165">
           <mxGeometry y="26" width="207" height="26" as="geometry"/>
@@ -636,6 +636,22 @@
         </mxCell>
         <mxCell id="bihAvSJTtZpJmnDp6-8L-167" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="bihAvSJTtZpJmnDp6-8L-165">
           <mxGeometry y="104" width="207" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="bihAvSJTtZpJmnDp6-8L-171" value="Relation" style="endArrow=none;html=1;endSize=16;startArrow=diamondThin;startSize=24;startFill=0;edgeStyle=orthogonalEdgeStyle;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bihAvSJTtZpJmnDp6-8L-140" target="bihAvSJTtZpJmnDp6-8L-165">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-603.5" y="-229.9117647058822" as="sourcePoint"/>
+            <mxPoint x="-759.7941176470588" y="-169.9117647058822" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bihAvSJTtZpJmnDp6-8L-172" value="1" style="resizable=0;html=1;align=left;verticalAlign=top;labelBackgroundColor=#ffffff;fontSize=10;" connectable="0" vertex="1" parent="bihAvSJTtZpJmnDp6-8L-171">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-37.5" y="-21.5" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bihAvSJTtZpJmnDp6-8L-173" value="1" style="resizable=0;html=1;align=right;verticalAlign=top;labelBackgroundColor=#ffffff;fontSize=10;" connectable="0" vertex="1" parent="bihAvSJTtZpJmnDp6-8L-171">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint y="-30" as="offset"/>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
